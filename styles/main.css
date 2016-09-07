@@ -1,0 +1,67 @@
+/* CURRENTLY IN: styles/main.css */
+.clearfix:after {
+    content:" ";
+    display:table;
+    clear:both;
+}
+
+#mytheme .header-main {
+	color: blue;
+	text-align: center;
+} 
+
+.broBox { 
+	
+	margin: 2px;
+	padding: 0px;
+	margin-top: 20px; 
+}
+
+
+.fields-buff { 
+	padding: 5px ; 
+}
+
+.first-field {
+	margin-left: 0px;
+}
+
+.calendar {
+	border: 1px solid blue; 
+	margin: 10px;
+	padding: 10px;
+}
+
+#mytheme .headerfont {
+	font-size: 35px;
+	color: blue;
+}
+
+.bottompic {
+	align-content: bottom; 
+
+}
+
+.no-buff {
+	padding: 0px;
+}
+
+
+#mytheme .headerfont { 
+	font-family: 'Permanent Marker', cursive;
+	font-weight: 350; 
+	padding: 2px;
+	text-align: center;}
+
+body {
+	font-family: 'Permanent Marker', cursive;
+	padding: 15px;
+}
+
+#mytheme .extrafont {
+	font-family: 'Permanent Marker', cursive;
+}
+
+.bighead {
+	font-size: 40px; 
+}
