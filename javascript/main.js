@@ -3,6 +3,5 @@
 ;
 
 $('.js-menu').on('click', function() {
-$('.ui.sidebar')
-  .sidebar('toggle')	
-})
+	$('.ui.sidebar').sidebar('toggle')	
+});
