@@ -37,9 +37,10 @@
 }
 
 .bottompic {
-	position: absolute;
+	/*position: absolute;*/
 	left: 0;
     bottom: 0;
+    margin-top: 25px;
 
 }
 
@@ -52,7 +53,9 @@
 	font-family: 'Permanent Marker', cursive;
 	font-weight: 350; 
 	padding: 2px;
-	text-align: center;}
+	text-align: center;
+	margin-left: 3px;
+}
 
 body {
 	font-family: 'Permanent Marker', cursive;
