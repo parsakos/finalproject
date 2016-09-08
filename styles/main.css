@@ -33,10 +33,13 @@
 #mytheme .headerfont {
 	font-size: 35px;
 	color: blue;
+	padding: 5px;
 }
 
 .bottompic {
-	align-content: bottom; 
+	position: absolute;
+	left: 0;
+    bottom: 0;
 
 }
 
@@ -61,4 +64,5 @@ body {
 }
 
 
-
+.searchboxbro { 
+	margin: 0 }
