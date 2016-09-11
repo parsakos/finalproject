@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset='utf-8'>
-	    <meta name='viewport' content='width=device-width, initial-scale=1.0;'>
+	    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
 	    <title>WOD Keeper</title>
 
 	    <link href="https://fonts.googleapis.com/css?family=Bungee|Bungee+Shade|Passion+One|Permanent+Marker|Poppins" rel="stylesheet">
@@ -11,7 +11,7 @@
 	    <link rel='stylesheet' href='styles/main.css'>
 
 	</head>
-	<body id="mytheme" class="header-main">
+	<body id="mytheme" class="header-main js-home-page">
 
 		<div class="ui sidebar inverted vertical menu">
 			
@@ -40,30 +40,30 @@
 			</div><!-- ui menu -->
 
 			<div class="clearfix broBox"> 
-				<form class="ui form">
+				<form class="ui form js-form">
 					<h3 id="mytheme" class="bighead extrafont ui dividing header">Ok Bro, What'd You Throw Around Today?</h3>
 
 					<div class="one field">
-						<select class="ui dropdown fields-buff first-field">
-							<option value="">Movement</option>
-							<option value="1">Deadlift </option>
-							<option value="2">Push Press</option>
-							<option value="3">Strict Press</option>
-							<option value="4">Push Press</option>
-							<option value="5">Snatch</option>
-							<option value="6">Bench Press</option>
-							<option value="7">Overhead Squat</option>
-							<option value="8">Back Squat</option>
-							<option value="9">Front Squat</option>
-							<option value="10">Bicep Curl</option>
-							<option value="11">Tricep Extension</option>
-							<option value="12">Neck Thrusters</option>
+						<select id="movement" class="ui dropdown fields-buff first-field">
+							<option value="-1">Movement</option>
+							<option value="Deadlift">Deadlift</option>
+							<option value="Push Press">Push Press</option>
+							<option value="Strict Press">Strict Press</option>
+							<option value="Push Press">Push Press</option>
+							<option value="Snatch">Snatch</option>
+							<option value="Bench Press">Bench Press</option>
+							<option value="Overhead Squat">Overhead Squat</option>
+							<option value="Back Squat">Back Squat</option>
+							<option value="Front Squat">Front Squat</option>
+							<option value="Bicep Curl">Bicep Curl</option>
+							<option value="Tricep Extension">Tricep Extension</option>
+							<option value="Neck Thrusters">Neck Thrusters</option>
 						</select>
 					</div>
 
 					<div class="one field"> 
-						<select class="ui dropdown fields-buff">
-							<option value="">Sets</option>
+						<select id="sets" class="ui dropdown fields-buff">
+							<option value="-1">Sets</option>
 							<option value="1">1</option>
 							<option value="2">2</option>
 							<option value="3">3</option>
@@ -77,8 +77,8 @@
 					</div>
 
 					<div class="one field">
-						<select class="ui dropdown fields-buff">
-							<option value="">Reps</option>
+						<select id="reps" class="ui dropdown fields-buff">
+							<option value="-1">Reps</option>
 							<option value="1">1</option>
 							<option value="2">2</option>
 							<option value="3">3</option>
@@ -105,14 +105,14 @@
 
 
 					<div id="mytheme" class="extrafont no-buff ui right labeled input fields-buff one field">
-						<input type="text" placeholder="Enter weight..">
+						<input id="weight" type="text" placeholder="Enter weight..">
 						<div class="ui basic label">
 							lb.
 						</div>
 					</div>
 
 					<div class="two fields">
-						<button id="mytheme" class="extrafont ui primary button">
+						<button id="mytheme" class="extrafont ui primary button js-store-workout">
 							Save
 						</button> 
 						<button id="mytheme" class="extrafont ui button">
