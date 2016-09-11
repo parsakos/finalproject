@@ -69,3 +69,21 @@ body {
 
 .searchboxbro { 
 	margin: 0 }
+
+#mytheme .movementFont {
+	font-size: 20px;
+	color: blue;
+	padding: 0px;
+}
+
+#mytheme .dateFont {
+	font-size: 25px;
+	color: blue;
+	padding: 0px;
+	text-decoration: underline;
+	font-family: 'Permanent Marker', cursive;
+}
+
+#mytheme .spacing {
+	margin-left: 10px;
+}
