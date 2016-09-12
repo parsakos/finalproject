@@ -81,7 +81,7 @@ function app( user ) {
 
 	function displayInfo( data ) {
 
-		const keys = Object.keys( data ); // this gives me an ARRAY containing all the dates that exist
+		const keys = Object.keys( data ).reverse(); // this gives me an ARRAY containing all the dates that exist
 
 		const $results = $('.js-results');
 
