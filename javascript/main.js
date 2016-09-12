@@ -201,5 +201,6 @@ function app( user ) {
 	// If on the home page, call the function below
 	if ( $('.js-home-page').length > 0 ) {
 		setInfo();
-	}	
-}
+	}
+}	
+
